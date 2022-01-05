@@ -24,6 +24,6 @@ resource "heroku_build" "example" {
   app = heroku_app.example.id
 
   source {
-    url = "https://github.com/heroku/go-getting-started/archive/refs/heads/main.zip"
+    url = "https://github.com/heroku/go-getting-started/archive/refs/heads/main.tar.gz"
   }
 }
